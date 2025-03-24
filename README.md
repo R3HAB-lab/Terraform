@@ -1,1 +1,1 @@
-Creating an ec2_instance with terraform modules.
+Creating an ec2_instance with terraform.
