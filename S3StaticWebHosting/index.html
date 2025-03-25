@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1 class="title">DevOps Engineer Portfolio</h1>
+        <p class="subtitle">Automating, Scaling, and Securing Infrastructure</p>
+        <img src="https://terraformwebsitedeploy.s3.eu-north-1.amazonaws.com/dev.png" alt="DevOps" class="hero-image">
+    </header>
+    
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project" id="ci-cd">
+            <h3>CI/CD Pipeline</h3>
+            <p>Implemented a fully automated CI/CD pipeline using Jenkins, Docker, and Kubernetes.</p>
+        </div>
+        <div class="project" id="cloud-infra">
+            <h3>Cloud Infrastructure as Code</h3>
+            <p>Designed scalable cloud architecture using Terraform and AWS.</p>
+        </div>
+        <div class="project" id="monitoring">
+            <h3>Monitoring & Logging</h3>
+            <p>Set up Prometheus and Grafana for real-time monitoring and log aggregation.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 DevOps Engineer | Built with passion</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #0a0a0a;
+        color: white;
+        text-align: center;
+    }
+    .hero {
+        background: url('https://your-image-url.com/devops-bg.jpg') no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
+        animation: fadeIn 2s ease-in;
+    }
+    .hero-image {
+        width: 150px;
+        margin-top: 20px;
+        border-radius: 10px;
+        animation: bounce 2s infinite;
+    }
+    .title {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    .subtitle {
+        font-size: 1.5rem;
+        color: #00ff00;
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+    .projects {
+        padding: 50px;
+    }
+    .project {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0, 255, 0, 0.8);
+    }
+</style>
+
