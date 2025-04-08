@@ -1,0 +1,10 @@
+pipeline {
+    agents any
+	Stages {
+	  Stage ('Build') {
+		steps {
+		  echo "cloning and building from GitHub"
+		}
+	  }
+	}
+     }
